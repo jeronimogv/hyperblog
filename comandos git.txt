@@ -1,0 +1,46 @@
+clase de git
+
+comandos de git
+
+git init 	para incializar git dentro de la carpeta donde tenemos nuestro proyecto.
+		si existen subcarpetas dentro de de la carpeta princiapal automaticamente
+		quedan listas para trabajar con git.
+
+git add 	evia los cambios en los archivos del directorio de trabajo al 
+		estado de stagging.
+
+git commit -m	envia lo que esta en stagging a el repositorio local con un mendaje.
+
+git rm -f 	elimina del repositorio local y directorio de trabajo el archivo.
+		se va, se pierde, cuidado.
+
+git rm --cached	elimina de stagging el arcivo deseado y solo se tiene en el directorio de
+		tranajo y si se hace  un commit este archivo no sera enviado al repositorio
+		local.
+git reset --soft	borra el historial de los registros de git en el repositorio local pero
+		mantiene lo camnio que ya estan en staggig. no altera los archivos del
+		directorio de trabajo.
+
+git reset --hard	Elimina todos los registros de git a partir del reset selecionado
+		ademas elimina de directorio de trabajo todos los cambios hechos al
+		archivo y otros archivos creado a partir de reset selcionado.
+		"mucho cuidado"
+
+git reset head	quita todo lo que se tenga en stagging. ( vuelven a untrack)
+
+git log		muestra todos los commit con sus mensajes y registro en base de datos de
+		los cambios en el repositorio local.
+
+git show	muestra el ultimo commit en el repositorio local.
+
+git checkout	Genera una bifurcacion cuandxo se agrega un nombre a la nueva rama con un head detached y ID con los registros de git 
+		por ejemplo. "git checkout cabecera" y archivos hasta la seleccion del checkout. Para salir hacemos un git
+		checkout master. git checkout tambien nos sirve para movernis entre ramas.
+
+git merge	sirve para fucionar dos ramas. siempre se debe de estar possisionado en la rama 
+		principal para invocar el merge.
+
+
+
+
+
