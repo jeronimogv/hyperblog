@@ -33,12 +33,17 @@ git log		muestra todos los commit con sus mensajes y registro en base de datos d
 
 git show	muestra el ultimo commit en el repositorio local.
 
-git checkout	Genera una bifurcacion cuandxo se agrega un nombre a la nueva rama con un head detached y ID con los registros de git 
+git checkout	Nos sirve para cambiarnos entre las diferentes ramas de nuestro proyecto. 
 		por ejemplo. "git checkout cabecera" y archivos hasta la seleccion del checkout. Para salir hacemos un git
-		checkout master. git checkout tambien nos sirve para movernis entre ramas.
+		checkout master. 
 
 git merge	sirve para fucionar dos ramas. siempre se debe de estar possisionado en la rama 
 		principal para invocar el merge.
+
+git branch	Te muestra las ramas de tu proyecto y la rama en que te encuetras. si le agregas un nombre te crea una rama 
+		nueva.
+
+
 
 
 
