@@ -1,6 +1,11 @@
 clase de git
 
-comandos de git
+Comandos de git
+
+git config -l 	Enlista la configuracion de git
+
+git config --global user.email "jeronimo@hotmail.com
+		Modifica el email del usuario a jeronimo@homail.com
 
 git init 	para incializar git dentro de la carpeta donde tenemos nuestro proyecto.
 		si existen subcarpetas dentro de de la carpeta princiapal automaticamente
@@ -43,7 +48,52 @@ git merge	sirve para fucionar dos ramas. siempre se debe de estar possisionado e
 git branch	Te muestra las ramas de tu proyecto y la rama en que te encuetras. si le agregas un nombre te crea una rama 
 		nueva.
 
+git remote origin
+		genera un origen remoto con el monbre origin.
 
+ssh-keygen -t rsa -b 4096 "email asociado al usuario de github"
+		Genera la llave ssh publica y privada.
+
+git pull 	Jala la informacion del repositorio remote.
+
+git push	envia la informacion de la rama selccionada.
+
+git log --all --graph --decorate --online
+		Muestra la historia grafica de los commits.
+
+alias nombre="git log ==all --graph --decorate --online"
+		Genera un alias del comando entre comillas.
+
+git tag		Muestra los tags del proyecto
+
+git tag -a v0.1 -m "mensaje como de un commit" 156987
+		genera el tag v0.1 en el commit con el hash de referencia 156987
+
+git show-ref --tags
+		Muestra la referencia de los tags asociados a los commits
+
+git push origin tags
+		Envia los tags a github
+
+git tag -d v0.1
+		Elimina el tag v0.1 localmente
+
+git push origin :refs/tags/v0.1
+		Elimina el tag localmente y el github.
+
+git show-branch
+		Muestra las ramas que existen con su historia
+
+git show-branch --all
+		muestra mas informacion de las ramas
+
+gitK		Las ramas de manera visual
+
+
+
+
+		
+		
 
 
 
